@@ -4,7 +4,7 @@ int main(){
    int player1 , player2;
 
 
-   printf("Digite um numero 1 para os dados de sao paulo:\n");
+   printf("Digite numero 1 para os dados de sao paulo:\n");
    scanf("%d" , &player1);
    
 
@@ -17,7 +17,7 @@ int main(){
    printf("PIB: 699.28 bilhões de reais\n");
    printf("Número de Pontos Turísticos: 50\n");
    
-   printf("Digite um numero 2 para dados rio de janeiro:\n");
+   printf("Digite numero 2 para dados rio de janeiro:\n");
    scanf("%d" , &player2);
 
    printf("Carta 2:\n");
