@@ -26,7 +26,10 @@ int main(){
     scanf("%f" , &pib);
     printf("insira numero de pontos turisticos:\n");
     scanf("%d" , &numerosdepontosturisticos);
-    
+    densidadepopulacional = (float)(populacao / area);
+    printf("densidade populacional é: %.1f\n" , densidadepopulacional);
+    pibpercapita = (float)(pib / populacao);
+    printf("o pib per capita é: %.1f\n" , pibpercapita);
 
     printf("insira os dados carta 2:\n");
 
@@ -42,5 +45,10 @@ int main(){
     scanf("%f" , &pib);
     printf("insira numero de pontos turisticos:\n");
     scanf("%d" , &numerosdepontosturisticos);
+    densidadepopulacional = (float)(populacao / area);
+    printf("densidade populacional é %.1f\n" , densidadepopulacional);
+    pibpercapita = (float)(pib / populacao);
+    printf("o pib per capita é: %.1f\n" , pibpercapita);
+
 
 }
