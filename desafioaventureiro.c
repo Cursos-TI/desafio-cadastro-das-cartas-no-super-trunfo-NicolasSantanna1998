@@ -6,6 +6,7 @@ int main(){
     
     int populacao;
     char nome [4];
+    char estado [15];
     float area;
     float pib;
     int numerosdepontosturisticos;
@@ -18,6 +19,8 @@ int main(){
 
     printf("insira o codigo:\n");
     scanf("%s" , nome);
+    printf("insira o nome do estado:\n");
+    scanf("%s" , estado);
     printf("insira a populaçao:\n");
     scanf("%d" , &populacao);
     printf("insira a area:\n");
@@ -26,6 +29,7 @@ int main(){
     scanf("%f" , &pib);
     printf("insira numero de pontos turisticos:\n");
     scanf("%d" , &numerosdepontosturisticos);
+
     densidadepopulacional = (float)(populacao / area);
     printf("densidade populacional é: %.1f\n" , densidadepopulacional);
     pibpercapita = (float)(pib / populacao);
@@ -37,6 +41,8 @@ int main(){
 
     printf("insira o codigo:\n");
     scanf("%s" , nome);
+    printf("insira o nome do estado:\n");
+    scanf("%s" , estado);
     printf("insira a populaçao:\n");
     scanf("%d" , &populacao);
     printf("insira a area:\n");
@@ -45,6 +51,7 @@ int main(){
     scanf("%f" , &pib);
     printf("insira numero de pontos turisticos:\n");
     scanf("%d" , &numerosdepontosturisticos);
+    
     densidadepopulacional = (float)(populacao / area);
     printf("densidade populacional é %.1f\n" , densidadepopulacional);
     pibpercapita = (float)(pib / populacao);
